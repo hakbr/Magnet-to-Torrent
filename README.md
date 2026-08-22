@@ -9,16 +9,16 @@ directly to your own server.
 
 ## Features
 
-- 🧲 **Magnet → torrent** — fetches full metadata from the BitTorrent DHT/peer swarm
+- **Magnet → torrent** — fetches full metadata from the BitTorrent DHT/peer swarm
   and builds a proper `.torrent` file (not just a metadata stub).
-- 📤 **One-click upload** — sends the generated `.torrent` straight to a directory on
+- **One-click upload** — sends the generated `.torrent` straight to a directory on
   your remote server via `scp`.
-- 🗂️ **Multiple server profiles** — save as many host/user/port/directory combos as
+- **Multiple server profiles** — save as many host/user/port/directory combos as
   you need and switch between them from a dropdown.
-- 🔑 **SSH key or password auth** — works with passwordless key-based login out of the
+- **SSH key or password auth** — works with passwordless key-based login out of the
   box, or password auth via `sshpass` if you'd rather not set up keys.
-- 🖥️ **Native Qt GUI** — fits right into KDE Plasma, no Electron/browser overhead.
-- 📁 **Load from file** — paste a magnet link directly, or point it at a `.magnet`
+- **Native Qt GUI** — fits right into KDE Plasma, no Electron/browser overhead.
+- **Load from file** — paste a magnet link directly, or point it at a `.magnet`
   file on disk.
 
 ## Screenshots
@@ -131,4 +131,4 @@ new transfer protocol or a system-tray mode), please open an issue first to disc
 
 ## License
 
-[MIT](LICENSE) — feel free to fork and adapt.
+GPL v3 — feel free to fork, share and adapt.
